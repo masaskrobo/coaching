@@ -1,0 +1,36 @@
+header{
+    background: rgb(38, 38, 38);
+    
+}
+.container{
+    width: 1280px;
+    margin: auto;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box
+}
+.container_holder{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.logo h2{
+  color: white;
+  font-size: 30px ;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.link_information ul{
+    list-style-type: none;
+    display: flex;
+}
+.link_information a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
