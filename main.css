@@ -1,9 +1,16 @@
+body{
+    margin: 0;
+}
+main{
+    max-width: 1600px;
+    margin: auto;
+}
 header{
     background: rgb(38, 38, 38);
     
 }
 .container{
-    width: 1280px;
+    width: 1170px;
     margin: auto;
     max-width: 100%;
     padding-left: 15px;
@@ -13,12 +20,13 @@ header{
 .container_holder{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   
 }
+
 .logo h2{
   color: white;
   font-size: 30px ;
-  font-family: 'Poppins', sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -26,11 +34,77 @@ header{
 .link_information ul{
     list-style-type: none;
     display: flex;
+
 }
 .link_information a{
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
     margin-left: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
 }
+.photo-holder{
+    background: url("photo-holder/gym.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}  
+.display-holder{
+    display: flex;
+    justify-content: space-between;
+}  
+.photo-holder_left {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.photo-holder_left h1{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 0;
+       
+}
+.photo-holder_left p{
+    color: white;
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+
+}
+.photo-holder_right{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.photo-holder_right p{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 25px;
+}
+.photo-holder-input{
+    display: inline-grid;
+}
+.input-holder{
+   padding-top: 14px;
+   padding-bottom: 14px;
+   padding-left: 20px;
+   width: 300px;
+   margin-bottom: 5px;
+   border-radius: 2px;
+   border: none;
+}
+.button-holder{
+    background-color: rgb(216, 58, 34);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+}
+
