@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'PT Sans', sans-serif;
 }
 main{
     max-width: 1600px;
@@ -29,6 +30,8 @@ header{
   font-size: 30px ;
   margin-top: 15px;
   margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 .link_information ul{
@@ -47,7 +50,7 @@ header{
     
 }
 .photo-holder{
-    background: url("photo-holder/gym.jpg");
+    background: url("photo-holder/istockphoto-1277242852-170667a.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -64,6 +67,8 @@ header{
     color: white;
     font-size: 35px;
     margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    
        
 }
 .photo-holder_left p{
@@ -74,8 +79,10 @@ header{
 
 }
 .photo-holder_right{
-    padding-top: 200px;
-    padding-bottom: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 40px 50px;
+    background-color: #00000069;
 }
 .photo-holder_right p{
     color: white;
@@ -83,6 +90,8 @@ header{
     text-align: justify;
     text-justify: inter-word;
     line-height: 25px;
+    margin-top: 5px;
+    
 }
 .photo-holder-input{
     display: inline-grid;
@@ -107,4 +116,82 @@ header{
     border-radius: 2px;
     border: none;
 }
+.gray-div-holder{
+    background-color: #282828;
+    margin-top: 80px;
+}
+.gray-div-holder_top {
+    text-align: center;
+}
+.gray-div-holder_top h2{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 90px;
+}
+.gray-div-holder_top p{
+    color: rgba(215, 209, 209, 0.872);
+    line-height: 25px;
+}
+.gray-div-holder_middle img{
+    padding-left: 300px;
+    padding-top: 60px;
+}
+.gray-div-holder_bottom{
+    text-align: center;
+}
+.gray-div-holder_bottom p{
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    white-space: pre-line;
+    line-height: 30px;
+    padding-top: 50px;
+}
+.gray-div-holder_bottom button{
+   color: white;
+   background-color: rgb(228, 92, 71);
+   border: none;
+   border-radius: 5px;
+   padding: 10px 50px;
+   font-size: 15px;
+   font-weight: bold;
+   margin-bottom: 90px;
+  
+}
+.black-div-holder{
+    background: #222222;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.black-holder{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    
+   
+}
+.black-holder h2{
+    font-size: 30px;
+    color:rgb(98, 95, 95);
+    font-weight: bolder;
+}
+
+.black-holder p{
+    color: white;
+    font-size: 18px;
+    white-space: pre-line;
+    line-height: 30px;
+}
+.material-icons.trophy{
+     color: orangered;
+     font-size: 50px;
+     position: absolute;
+     padding-top: 180px;
+}
+
 
