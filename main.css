@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans';
 }
 main{
     max-width: 1600px;
@@ -8,6 +8,7 @@ main{
 }
 header{
     background: rgb(38, 38, 38);
+    padding: 8px 0px;
     
 }
 .container{
@@ -27,11 +28,11 @@ header{
 
 .logo h2{
   color: white;
-  font-size: 30px ;
+  font-size: 25px ;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 .link_information ul{
@@ -42,11 +43,11 @@ header{
 .link_information a{
     text-decoration: none;
     color: white;
-    font-size: 11px;
+    font-size: 12px;
     text-transform: uppercase;
-    margin-left: 15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
     font-weight: bold;
+    letter-spacing: 1px;
     
 }
 .photo-holder{
@@ -67,7 +68,7 @@ header{
     color: white;
     font-size: 35px;
     margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     
        
 }
