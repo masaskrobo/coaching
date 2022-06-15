@@ -283,7 +283,6 @@ header{
 .transforming-holder{
     padding-top: 120px;
     padding-bottom: 120px;
-    width: 500px;
     margin: auto;
 }
 .transforming-holder h2{
@@ -304,11 +303,13 @@ header{
     padding-left: 20px;
 }
 .transforming-holder button{
+    display: block;
+    margin: auto;
     background: #ec5445;
     border: none;
     border-radius: 2px;
     letter-spacing: 1px;
-    margin-left: 120px;
+    padding-left: 120px;
     font-size: 15px;
     padding: 15px 25px;
     color: #ffffff;
@@ -316,6 +317,110 @@ header{
     font-weight: 700;
     font-family: 'Roboto Condensed', "Helvetica Neue",
      "Helvetica", Helvetica, Arial, sans-serif;
+}
+.my-services{
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.my-services h2{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 36px;
+    line-height: 48px;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.my-services__content__box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.my-services__content__photo{
+    padding-right: 60px;
+}
+
+.my-services__content__box__info{
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.my-services__content__box__info h3{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    inline-size: 180px;    
+}
+.my-services__content__box__info p{
+    line-height: 1.7;
+    color: #333333;
+    text-align: justify;
+}
+.my-services__content__box__info a{
+    text-decoration: none;
+    color: #e95c56;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.my-services button{
+    color: #ffffff;
+    background: #ec5445;
+    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    padding: 20px 38px;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+.quote{
+    background: url("photo-holder/jogging-2343558__340.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.quote__holder{
+   padding-left: 100px;
+   padding-top: 130px;
+   padding-bottom: 130px;
+   
+}
+.quote__holder__text{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.quote__holder__box{
+    display: flex;
+    
+}
+.quote__holder__box__img img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+   
+}
+.quote__holder__box__date{
+    padding-left: 20px;
+    line-height: 10px;
+}
+.quote__holder__box__date h3{
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+}
+.quote__holder__box__date p{
+    color: #ffffff;
 
 }
 
