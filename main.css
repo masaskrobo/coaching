@@ -334,14 +334,20 @@ header{
 .my-services__content__box{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
     
 }
 .my-services__content__photo{
-    padding-right: 60px;
+    width: 48%;
+}
+.my-services__content__photo img{
+    width: 100%;
 }
 
 .my-services__content__box__info{
-    margin: auto;
+    width: 48%;
+    padding: 40px;
+    box-sizing: border-box;
     padding-bottom: 100px;
     padding-top: 20px;
 }
@@ -403,11 +409,16 @@ header{
     display: flex;
     
 }
-.quote__holder__box__img img{
-    border-radius: 50%;
+.quote__holder__box__img{
     width: 70px;
     height: 70px;
     overflow: hidden;
+    border-radius: 50%;
+}
+    
+
+.quote__holder__box__img img{
+    height: 100%;
    
 }
 .quote__holder__box__date{
@@ -423,6 +434,192 @@ header{
     color: #ffffff;
 
 }
+
+.backround{
+    background: #fafafa;
+    
+}
+.transforming__body{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.transforming_body__info{
+    text-align: center;
+}
+.transforming_body__info h2{
+    font-size: 36px;
+    line-height: 48px;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+.transforming_body__info p{
+    line-height: 1.7;
+    margin-bottom: 1em;
+    font-family: 'PT Sans', sans-serif;
+    color: #333333;
+}
+.transforming_body__info h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    font-size: 26px;
+    
+}
+.transforming__body__holder{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+.transforming__body__holder__before{
+    margin: auto;
+}
+
+.tranforming__body__holder__photo p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.tranforming__body__image{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    overflow: hidden;
+    margin: auto;
+    
+}
+.orange{
+    color: #e95c56;
+}
+.tranforming__body__image img{
+    height: 100%;
+}
+.transforming__body__holder__text h5{
+    text-align: center;
+}
+.transforming__body__holder__text p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+.week-package{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.week-package__content{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.week-package__content__box p{
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0;
+}
+.week-package__content__box h3{
+    font-size: 26px;
+    line-height: 48px;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+.week-package__content__box p:nth-child(4){
+    font-size: 140px;
+    line-height: 140px;
+    color: #e95c56;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+.week-package__content__box span:nth-child(3){
+    font-size: 20px;
+    color: #e95c56;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.week-package__content__box p:nth-child(5){
+    font-size: 18px;
+    color: #e95c56;
+    line-height: 1.73;
+}
+.week-package__content__button{
+    text-align: center;
+}
+.week-package__content__button p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+.week-package__content__button button{
+    font-size: 16px;
+    color: #ffffff;
+    background: #ec5445;
+    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 15px 36px;
+    border: none;
+    border-radius: 50px;  
+}
+.week-package__holder{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.week-package__holder__box{
+    display: flex;
+    
+}
+
+.week-package__holder__box__iconic{
+    color: gray;
+    width: 48px;
+    margin-top: 25px;
+    
+    
+      
+}
+
+.week-package__holder__box h3{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.week-package__holder__box p{
+    line-height: 1.7;
+    color: #333333;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+
+    
+
+
+
+
 
 
 
