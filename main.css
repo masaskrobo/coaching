@@ -824,6 +824,7 @@ header{
     font-family: 'Poppins', sans-serif;
     color: #333333;
     margin-bottom: 0;
+    white-space: pre;
    
 }
 .articles__holder__box a{
@@ -832,9 +833,8 @@ header{
 }
 .articles__holder__box__iconic{
     display: flex;
-    
+    align-items: flex-end;
 }
-
 
 
 
