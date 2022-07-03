@@ -859,17 +859,22 @@ header{
     width: 100%;
 }
 .contact__info__image{
-    width: 50%;
+    width: 48%;
+}
+.contact__info__image img{
+   width: 100%;
 }
 .additional__information{
-    width: 50%;
+    width: 48%;
     background: #ec5445;
     padding-top: 40px;
-
+    padding-left: 40px;
+    margin-left: 20px;
 }
 .additional__information__box{
     text-align-last: start;
-    margin: 40px;
+    margin-top: 0;
+  
 }
 .additional__information__box h3{
     font-size: 20px;
@@ -911,8 +916,102 @@ header{
 }
 
 
+@media (max-width: 1024px){
+    .container_holder{
+        display: none;
+    }
+}
 
 
+@media (max-width:560px){
+    .display-holder{
+        display: block;
+    } 
+    .photo-holder_right{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .articles__holder {
+        display: block;
+    }
+    .transforming-holder h2{
+        font-size: 28px;
+    }
+    .transforming-holder p{
+        font-size: 15px;
+    }
+    .questions__holder{
+        display: block;
+    }
+    .contact__info{
+        display: block;
+    }
+    .contact__info__image img{
+         margin-bottom: 20px;    
+         padding-left: 20px;  
+    }
 
-
-
+}
+@media (max-width:320px) {
+    .photo-holder_left h1{
+        font-size: 48px;
+    }
+    .input-holder{
+        width: 200px;
+    }
+    .gray-div-holder{
+        padding: 10px;
+    }
+    .reference__content{
+        width: 320px;
+    }
+    .reference__content__box h2{
+        font-size: 49px;
+    }
+    .why-me__holder{
+        display: block;
+    }
+    .why-me__box{
+        width: 320px;
+    }
+    .transforming-holder h2{
+        font-size: 20px;
+    }
+    .transforming-holder p{
+        font-size: 15px;
+        white-space: normal;
+    }
+    .my-services__content__box__info{
+        padding: 0;
+    }
+    .my-services__content__box{
+        display: block;
+        padding-left: 20px;
+    }
+    .quote__holder__box__date p{
+        white-space: pre;
+    }
+    .transforming__body__holder{
+        display: block;
+    }
+    
+    .week-package{
+        display: block;
+    }
+    .week-package__holder{
+        display: block;
+        margin: auto;
+    }
+    .week-package__content__button button{
+        margin-bottom: 50px;
+    }
+    .log-in__member{
+        width: 320px;
+    }
+    .log-in__member p{
+        padding-right: 20px;
+    }
+    .log-in__input input, .log-in__input button{
+        width: 250px;
+    }
+}
